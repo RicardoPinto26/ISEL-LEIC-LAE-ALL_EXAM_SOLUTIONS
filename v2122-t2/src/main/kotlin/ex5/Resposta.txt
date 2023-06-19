@@ -1,3 +1,0 @@
-Caso o tipo de n seja int, na linha 5 existirá uma operação de boxing
-Na linha 6 existe um checkcast para Integer
-É possivel também que o retorno da função seja int, o que geraria uma operação de unboxing na linha 7

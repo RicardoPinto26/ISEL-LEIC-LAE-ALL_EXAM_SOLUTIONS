@@ -1,0 +1,4 @@
+linha 5 -> box para Integer
+linha 6 -> checkcast para Integer
+linha 7 -> unbox para int
+linha 8 -> box para Integer

@@ -1,3 +1,7 @@
-Adjustable fica em Adjustable.class,
-Light fica em Light.class
-DIMMED e createLight ficam em LightKt.class
+F.class
+Stats.class
+A.class
+B.class
+CodeKt.class
+
+As definições natives de "e" e "pi" ficam no ficheiro CodeKt.class

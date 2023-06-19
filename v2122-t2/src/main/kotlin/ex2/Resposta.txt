@@ -1,5 +1,8 @@
-B > A > C
+B > C > A
 
-A tem 2 backing fields, devido ao x e ao y.
-B tem 3 backing fields, devido ao x, y e modulus.
-C tem 1 backing field, devido ao modulus.
+A tem 0 backing fields. Isto acontece devido ao getter ser declarado sem utilizar o campo field, e por não existir um
+setter (val nunca gera setter).
+
+B tem 2 backing fields.
+
+C tem 1 backing field.

@@ -1,0 +1,5 @@
+a) "abc isel super 3 4 5 "
+b) "abc 3 isel 4 "
+O sequence é lazy, logo as operações intermediarias apenas são executadas até que a operação terminal termine.
+
+NAO SOU BOM A JUSTIFICAR CENAS
