@@ -1,0 +1,3 @@
+Adjustable fica em Adjustable.class,
+Light fica em Light.class
+DIMMED e createLight ficam em LightKt.class
