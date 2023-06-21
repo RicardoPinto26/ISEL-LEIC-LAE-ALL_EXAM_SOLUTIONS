@@ -1,0 +1,8 @@
+a)
+A função necessita de ser inline, e o seu genérico reified.
+Caso isto não seja feito, o genérico da função irá ser compilado para Object, e o checkcast será para Object.
+Com uma função inline e genérico reified, a função será inlined para o call site, e o tipo usado será o tipo
+utilizado no call site.
+
+b)
+Como na JVM não existem genéricos, o checkcast será para List, logo o cast pedido para List<R> é "unchecked".

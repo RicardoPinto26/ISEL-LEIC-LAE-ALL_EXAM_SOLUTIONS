@@ -9,6 +9,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/example-easy" />
+            <option value="$PROJECT_DIR$/example-hard" />
             <option value="$PROJECT_DIR$/v2122-t1" />
             <option value="$PROJECT_DIR$/v2122-t2" />
           </set>

@@ -1,0 +1,3 @@
+Num Garbage Collector baseado em marking, o gc começa a percorrer a árvore de instâncias (a partir das root references),
+marcando todas as instâncias percorridas. Depois de percorrer toda a árvore, elimina todas as instâncias não marcadas,
+visto que não existe nenhum uso da mesma.

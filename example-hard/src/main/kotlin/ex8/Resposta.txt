@@ -1,0 +1,8 @@
+Um Garbage Collector geracional tem 2 tipos de collection: young collection e old collection.
+Tem uma lista de instancias "young", ao qual vai adicionando as instancias criadas. Quando esta lista enche, todas as
+instancias que lá estão vão para a lista de instancias "old". A lista de instancias old é verificada menos vezes,
+e a sua verificação tem maior custo.
+Fundamenta-se na ideia de que a maioria das instancias criadas são apagadas rápidamente, logo verifica mais vezes
+as instancias criadas recentemente.
+
+ChatGPT: https://chat.openai.com/share/594c0787-ff2b-44e2-b76f-ece12a8ce840

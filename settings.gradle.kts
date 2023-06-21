@@ -8,3 +8,6 @@ rootProject.name = "all_tests"
 
 include("v2122-t1")
 include("v2122-t2")
+
+include("example-easy")
+include("example-hard")

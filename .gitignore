@@ -1,15 +1,17 @@
 # Project exclude paths
 /.gradle/
 /build/
-/i2122-t1/build/
-/i2122-t1/build/classes/kotlin/main/
-/i2122-t1/build/classes/kotlin/test/
-/i2122-t2/build/
-/i2122-t2/build/classes/kotlin/main/
-/i2122-t2/build/classes/kotlin/test/
+
 /v2122-t1/build/
 /v2122-t1/build/classes/kotlin/main/
 /v2122-t1/build/classes/kotlin/test/
 /v2122-t2/build/
 /v2122-t2/build/classes/kotlin/main/
 /v2122-t2/build/classes/kotlin/test/
+
+/example-easy/build/
+/example-easy/build/classes/kotlin/main/
+/example-easy/build/classes/kotlin/test/
+/example-hard/build/
+/example-hard/build/classes/kotlin/main/
+/example-hard/build/classes/kotlin/test/
