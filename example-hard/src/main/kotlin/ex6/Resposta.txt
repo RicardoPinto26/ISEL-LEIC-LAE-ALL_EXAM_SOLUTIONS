@@ -1,0 +1,7 @@
+Em "other = n" existe um boxing de n (que é um int) para Integer (o tipo de other).
+em "val res = n.equals("ola") existe outro boxing de n (que é um int) para Integer (o método extensão .equals pertence a Integer).
+em "val end = other + res as Int" existe um checkcast para int no fim da operação de soma. Existe também um
+unboxing de Integer para int (do other) para a operação de soma, e um checkcast de res (que é um Boolean) para int.
+
+
+⚠⚠ TA ERRADO, NEM TE SEI BEM DIZER O CERTO, MT BIZARRO ⚠⚠

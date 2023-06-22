@@ -1,0 +1,13 @@
+c)
+
+⚠⚠ PUXEI DO INVENTOMETRO EM TODAS ⚠⚠
+
+i. F. A declaração do método de extensão necessita da existencia da interface e do seu método para ocorrer.
+
+ii. V. Com o ficheiro .class gerado pelo gerador da esquerda, já existe toda a informação sobre a interface.
+
+iii. F. Por este ser um método extensão da interface, é obviamente necessário existir o .class dessa mesma interface.
+Além disso, existe uma chamada para o método estimate dessa classe, que também necessita de existir.
+
+iv. F. A não ser que o programa inclua o .class gerado pelo gerador da esquerda, será sempre necessário incluir o gerador,
+para que este possa gerar o .class antes do método extensão ser declarado.

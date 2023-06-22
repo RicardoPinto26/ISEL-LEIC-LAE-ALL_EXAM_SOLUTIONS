@@ -1,1 +1,11 @@
-Não Sei 😩
+Z > Y > X
+
+X tem 0 backing fields
+nr é val, e tem override do getter sem usar field, logo não é gerado backing field. Os vals do companion object não ficam
+guardados nas instâncias da classe.
+
+Y tem 1 backing field -> bar
+Qux é apenas um parametro do construtor, nr e foo são vals com override nos getters, e ambos não usam field, logo não é
+gerado backing field para nenhum deles.
+
+Z tem 2 backing fields -> bar e foo.

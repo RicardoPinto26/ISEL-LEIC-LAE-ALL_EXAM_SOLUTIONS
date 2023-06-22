@@ -1,0 +1,4 @@
+O metodo cleanup poderá dar uma exceção NPE (Null Pointer Exception) devido à non-null assertion "out!!".
+
+Isto irá ocorrer se o programa correr o close() (o que irá colocar o out a null), e posteriormente o gc correr
+o metodo finalize(), que irá fazer a tal non-null assertion a out que irá falhar.

@@ -1,3 +1,13 @@
-Adjustable fica em Adjustable.class,
-Light fica em Light.class
-DIMMED e createLight ficam em LightKt.class
+a)
+5 Ficheiros .class.
+
+Printable.class, Info.class, ClassesKt.kt
+
+Os outros ficheiros vêm da sequence, e do facto de se incrementar o contador dentro do map da sequence.
+
+b)
+getfield. Não sei porque :c
+
+c)
+4 estados. 1 estado para cada yield(), mais 1 para para sair.
+

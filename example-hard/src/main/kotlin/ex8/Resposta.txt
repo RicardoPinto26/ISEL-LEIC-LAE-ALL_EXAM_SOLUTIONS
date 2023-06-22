@@ -1,8 +1,18 @@
-Um Garbage Collector geracional tem 2 tipos de collection: young collection e old collection.
-Tem uma lista de instancias "young", ao qual vai adicionando as instancias criadas. Quando esta lista enche, todas as
-instancias que lá estão vão para a lista de instancias "old". A lista de instancias old é verificada menos vezes,
-e a sua verificação tem maior custo.
-Fundamenta-se na ideia de que a maioria das instancias criadas são apagadas rápidamente, logo verifica mais vezes
-as instancias criadas recentemente.
+abc def super 2
+abc def super 3
 
-ChatGPT: https://chat.openai.com/share/594c0787-ff2b-44e2-b76f-ece12a8ce840
+abc def super 2
+3
+
+No caso do arrayOf, o map é executado logo na linha 1, saindo do standard output "abc def super " e ficando no nrs
+um array de [3, 3, 5].
+Na linha 2, vai sair no s.o. "2\n"
+Na linha 3, vai sair no s.o. "3\n"
+
+No caso do sequenceOf, o map não é executado logo na linha 1, e sim quando for necessário aceder aos seus membros.
+Logo, na linha 1 não é colocado nada no s.o.
+Na linha 2, irá sair "abc def super 2\n".
+Na linha 3, irá sair "abc def super 3\n"
+
+O map é percorrido na sua totalidade visto que count é uma terminal operation que percorre todos os membros da sequence
+para os contar.
