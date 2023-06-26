@@ -1,1 +1,9 @@
-Não sei ;_;
+A)
+"FINALIZED"
+Exception em titles[7], logo func sai com exceção sem correr ff.close(), o gc depois corre o finalizer.
+B)
+"CLOSED"
+Exception em titles[5], o use apanha a exceção e dá close, gc dá exceção a tentar escrever visto que out já tá closed.
+C)
+"initFINALIZED"
+Escreve titles[2] (init), não dá close, e depois o gc corre o finalizer.

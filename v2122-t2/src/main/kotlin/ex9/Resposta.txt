@@ -1,0 +1,10 @@
+a)
+No caso dos cleaners, estes podem ser instanciados para cada instancia de uma cada, dependendo das necessidades presentes.
+Isso significa que tendo 2 instancias da mesma classe, 1 pode ter um Cleaner, enquanto a outra não.
+
+b)
+Os cleaners não precisam necessariamente de manter uma referencia para toda a instância de uma classe, podendo manter
+só uma instancia para os elementos que necessitam de ser libertados pelo mesmo. Assim, é possivel libertar o resto
+da memoria da instancia mantendo a parte referenciada, para que possa ser "limpa".
+
+☣☣ Não tenho a certeza ☣☣
