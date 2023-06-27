@@ -2,12 +2,11 @@ package ex7
 
 import java.time.LocalDate
 
-inline fun <reified T> List<Any>.castTo(): List<T> {
-    this.forEach {
+inline fun <reified T> List<Any>.castTo(): List<T> =
+    this.map {
         it as T
     }
-    return this as List<T>
-}
+
 
 fun main() {
     val objs1: List<Any> = listOf(1, 2, 3, 4, 5)
