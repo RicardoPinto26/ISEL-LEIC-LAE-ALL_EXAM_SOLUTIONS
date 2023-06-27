@@ -1,0 +1,2 @@
+Tirar o println e o new Foo().
+Não guardar o resultado?

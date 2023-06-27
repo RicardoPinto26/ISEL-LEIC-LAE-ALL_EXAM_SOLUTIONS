@@ -1,0 +1,4 @@
+☢☣ NAO PERCEBO NADA DISTO, PODE TAR ERRADO ☣☢
+
+É mantida uma referencia para um objeto até que o finalize seja corrido, mesmo que já não seja necessário libertar
+alguma coisa.

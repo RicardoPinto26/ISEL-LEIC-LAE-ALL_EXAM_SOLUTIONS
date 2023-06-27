@@ -1,5 +1,0 @@
-B > A > C
-
-A tem 2 backing fields, devido ao x e ao y.
-B tem 3 backing fields, devido ao x, y e modulus.
-C tem 1 backing field, devido ao modulus.
